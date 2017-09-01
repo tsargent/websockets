@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
+    "server": "nodemon src/server/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.5.5"
+    "nconf": "^0.8.4",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "twit": "^2.2.9",
+    "websocket": "^1.0.24"
   }
 }
